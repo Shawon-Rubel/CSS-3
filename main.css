@@ -1,0 +1,26 @@
+ul{
+    list-style-type:none;
+    overflow:hidden;
+    background-color:black;
+    margin: 0px;
+    padding:0px;
+}
+li{
+    float: left;
+}
+li a{
+    display:block;
+   padding: 14px 16px;
+   text-decoration: none;
+   color:rgb(209, 196, 16);
+}
+li a:hover{
+    background-color: green;
+    color:white;
+}
+
+input:focus{
+     color:green;
+     font-size:30px;
+      background-color: violet;
+}
